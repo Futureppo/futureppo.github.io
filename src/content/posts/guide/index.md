@@ -1,51 +1,22 @@
 ---
-title: Simple Guides for Fuwari
-published: 2024-04-01
-description: "How to use this blog template."
+title: 终于部署好博客啦~
+published: 2026-03-17
+description: "每个人都有自己的小世界~"
 image: "./cover.jpeg"
-tags: ["Fuwari", "Blogging", "Customization"]
-category: Guides
+tags: ["闲聊"]
+category: 闲聊
 draft: false
 ---
 
-> Cover image source: [Source](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/208fc754-890d-4adb-9753-2c963332675d/width=2048/01651-1456859105-(colour_1.5),girl,_Blue,yellow,green,cyan,purple,red,pink,_best,8k,UHD,masterpiece,male%20focus,%201boy,gloves,%20ponytail,%20long%20hair,.jpeg)
+## 为什么要搭博客？
 
-This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
+折腾了几天，这个博客终于算是跑起来了！
 
-## Front-matter of Posts
+其实一直都有这个想法。平时折腾、coding，总会遇到一些有趣的问题和解决方案。之前都是到处乱丢md文件，时间一长就找不到了。
 
-```yaml
----
-title: My First Blog Post
-published: 2023-09-09
-description: This is the first post of my new Astro blog.
-image: ./cover.jpg
-tags: [Foo, Bar]
-category: Front-end
-draft: false
----
-```
-
-| Attribute     | Description                                                                                                                                                                                                 |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `title`       | The title of the post.                                                                                                                                                                                      |
-| `published`   | The date the post was published.                                                                                                                                                                            |
-| `description` | A short description of the post. Displayed on index page.                                                                                                                                                   |
-| `image`       | The cover image path of the post.<br/>1. Start with `http://` or `https://`: Use web image<br/>2. Start with `/`: For image in `public` dir<br/>3. With none of the prefixes: Relative to the markdown file |
-| `tags`        | The tags of the post.                                                                                                                                                                                       |
-| `category`    | The category of the post.                                                                                                                                                                                   |
-| `draft`        | If this post is still a draft, which won't be displayed.                                                                                                                                                    |
-
-## Where to Place the Post Files
+所以干脆搭个博客，把这些东西整理出来。一方面是给自己留个记录，方便以后回头看；另一方面，额 没想好~
 
 
+如果你也在折腾类似的东西，或者只是路过看看，欢迎常来逛逛～
 
-Your post files should be placed in `src/content/posts/` directory. You can also create sub-directories to better organize your posts and assets.
-
-```
-src/content/posts/
-├── post-1.md
-└── post-2/
-    ├── cover.png
-    └── index.md
-```
+那么，就从这篇开始吧~
