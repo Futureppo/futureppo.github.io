@@ -9,6 +9,7 @@ draft: false
 ---
 
 本文将记录如何通过在安卓端使用 JSHook 配合 Frida 注入，获取一个月的 ChatGPT Plus 免费试用。
+此方法适用于所有GPT订阅，包括pro20x，pro10x，go，plus等等，年付月付均可。
 
 ## 准备工作
 
@@ -127,5 +128,6 @@ Java.perform(function () {
     log("所有 Hook 就绪。请在 App 中点击订阅按钮触发逻辑。");
 }); 
 ```
+
 补充说明：
-脚本的原文出处在 https://www.azx.us/posts/700。原作者仅适配了 x86 架构的安卓模拟器，本博客中的代码为经过二次修改的版本，已完美支持 arm64 架构设备。
+脚本的原文出处在 https://www.azx.us/posts/700 。原作者仅适配了 x86 架构的安卓模拟器，本博客中的代码为经过二次修改的版本，已完美支持 arm64 架构设备。
