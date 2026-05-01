@@ -27,5 +27,6 @@ bun.lockb
 yarn.lock
 
 # ide
+.vscode/
 .idea
 *.iml
